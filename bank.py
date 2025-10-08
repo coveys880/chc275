@@ -1,11 +1,11 @@
-names = ["Shane"]
-balences = ["10"]
+names = ["Shane", "Josh", "Winrey"]
+balences = [10, 20, 30]
 check = False 
 while check == False: 
     x = input("do you want to see the menu?")
     if x == "yes": 
         print("1. add account")
-        print("2. balence")
+        print("2. print all accounts")
         print("3. deposit")
         print("4. withdraw")
         print("5. transfer")
@@ -42,7 +42,9 @@ while check == False:
             index = names.index(acctname)
             names.pop
             balences.pop
-            
+        elif action == "print all accounts":
+            print(len(names)) 
+               
             
         elif action == "quit": 
                 Check = True 
