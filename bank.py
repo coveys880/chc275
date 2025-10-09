@@ -40,10 +40,11 @@ while check == False:
         elif action == "remove account": 
             acctname = input("what account do you wish to remove?")    
             index = names.index(acctname)
-            names.pop
-            balences.pop
+            names.pop(index)
+            balences.pop(index)
         elif action == "print all accounts":
-            print(len(names)) 
+            for i in range(len(names)):
+                print(f"account name: {names[i]} balences: {balences[i]}") 
                
             
         elif action == "quit": 
