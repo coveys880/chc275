@@ -6,4 +6,4 @@ def printBoard (board):
             print ("I", end = "")
             print (board[i][j], end = "i")
         print ()
-    printBoard(board)         
+    printBoard(board)         m , 
