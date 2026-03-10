@@ -7,3 +7,6 @@ def printBoard (board):
             print (board[i][j], end = "i")
         print ()
     printBoard(board)         
+    
+    
+    
